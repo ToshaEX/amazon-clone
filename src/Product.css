@@ -27,6 +27,10 @@
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
+  cursor: pointer;
+}
+.product > button:hover {
+  border: 1px solid black;
 }
 .product__price {
   margin-top: 5px;
