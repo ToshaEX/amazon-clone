@@ -16,9 +16,5 @@
     border-bottom: 1px solid lightgray;
 }
 @media only screen and (max-width: 600px) {
- .checkout{
-     display:grid;
-     grid-template-columns: 2fr 1fr;
-     width:98%;
- }
+   
 }

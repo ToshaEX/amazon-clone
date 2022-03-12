@@ -1,7 +1,5 @@
 .checkoutProduct {
-  display: grid;
-  grid-template-columns:180px 1fr ;
-  gap:0rem;
+  display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -23,7 +21,7 @@
 
 .checkoutProduct__image{
     object-fit:contain;
-    width:180px;
+    width:100px;
     height:180px;
 }
 .checkoutProduct__rating{

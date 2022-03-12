@@ -63,21 +63,3 @@
   font-weight: 800;
 }
 
-@media only screen and (max-width: 600px) {
-  .header {
-    width: 100%;
-  }
-  .header__logo {
-  width: 50px;
-  object-fit: contain;
-  margin: 0 20px;
-  margin-top: 18px;
-}
-.header__searchInput{
-  display:none;
-}
-.header__searchIcon{
-  display:none;
-}
-
-}
