@@ -31,3 +31,9 @@
 .subtotal > button:hover {
   border: 1px solid black;
 }
+
+@media only screen and (max-width: 600px) {
+ .subtotal{
+   width:200px;
+ }
+}
