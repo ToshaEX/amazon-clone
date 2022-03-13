@@ -4,10 +4,12 @@ import Header from "./Header.js";
 import Home from "./Home.js";
 import Checkout from "./Checkout.js";
 import Login from "./Login";
-import Payment from "./Payment"
+import Payment from "./Payment";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
@@ -44,6 +46,7 @@ function App() {
 
           <Route path="/">
             <Header />
+            <ToastContainer />
             <Home />
           </Route>
         </Switch>
