@@ -4,7 +4,6 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 1500px;
-  overflow: hidden;
 }
 .home__row {
   display: flex;

@@ -22,18 +22,12 @@
   border-radius: 2px;
   width: 100%;
   height: 30px;
-  border: 1px solid #dddddd;
+  border: 1px solid;
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
-  color:#111;
-  cursor:pointer;
+  color: #111;
+  cursor: pointer;
 }
 .subtotal > button:hover {
   border: 1px solid black;
-}
-
-@media only screen and (max-width: 600px) {
- .subtotal{
-   width:200px;
- }
 }

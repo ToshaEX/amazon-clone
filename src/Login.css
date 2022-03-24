@@ -72,11 +72,4 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
-  .login__container {
-    width: 200px;
-  }
-  .login {
-    height: 100vh;
-  }
-}
+
